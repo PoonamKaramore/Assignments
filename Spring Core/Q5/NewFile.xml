@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+           xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:context = "http://www.springframework.org/schema/context"
+           xsi:schemaLocation = "http://www.springframework.org/schema/beans
+                     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                     http://www.springframework.org/schema/context
+                     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+                     
+                     <context:annotation-config />
+                     
+   <!-- Using @Required : ref = p2 should be present otherwise Bean Creation Exception is thrown -->
+                     <bean id="player" class="que5.Player">
+                         <property name="player1" ref="p1" />
+                         <property name="player2" ref="center" />
+                     </bean>     
+        
+                     <bean id="p1" class="que5.Sports">
+                         <property name="name" value="Poonam" />
+                         <property name="age" value="12" />   
+                     </bean>
+                     
+ <!-- For Using @Resource annotation : member variable and bean name should be same -->                     
+                     <bean id="center" class="que5.Sports">
+                          <property name="name" value="Ankita" />
+                          <property name="age" value="24" />   
+                      </bean>
+                      
+                      <bean id="extra" class="que5.Extra" />
+</beans>   
