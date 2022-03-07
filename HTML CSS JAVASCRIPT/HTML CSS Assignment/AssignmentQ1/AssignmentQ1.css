@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(222, 196, 228);
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    box-sizing: content-box;
+}
+
+.wrapper p {
+    box-sizing: content-box;
+    text-align: center;
+    font-style: italic;
+    font: bold;
+}
+
+img {
+    width: 50%;
+    margin-left: 24%;
+}
+
+.tribute-data {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tribute-data h2 {
+    text-decoration: underline;
+    font-size: 27px;
+}
