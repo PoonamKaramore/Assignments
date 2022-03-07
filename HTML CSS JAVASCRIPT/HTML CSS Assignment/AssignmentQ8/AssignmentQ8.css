@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    width: 50%;
+}
+
+input {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+
+.top {
+    background-color: rgb(136, 89, 89);
+    width: 90%;
+    margin: 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.photo .pic {
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    margin: 20px auto;
+    width: 60%;
+}
+
+h3 {
+    height: 40%;
+    text-align: center;
+    padding-left: 580px;
+    color: white;
+}
