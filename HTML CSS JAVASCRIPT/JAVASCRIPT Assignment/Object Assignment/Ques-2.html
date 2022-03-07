@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question-2</title>
+</head>
+
+<body>
+
+    <script>
+        function Rectangle(height, width) {
+            this.height = height;
+            this.width = width;
+        }
+        var rect1 = new Rectangle(20, 5);
+        //properties
+        rect1.height = 20;
+        rect1.width = 5;
+        rect1.colour = 'red';
+        console.log(rect1);
+
+
+        //modify properties
+        rect1.height = 14;
+        rect1.width = 20;
+        rect1.colour = 'green'
+        console.log(rect1);
+
+        var Area;
+
+        function getArea() {
+            width = 10;
+            height = 20;
+            Area = width * height;
+            return Area;
+
+        }
+        console.log("Area is " + getArea());
+    </script>
+</body>
+
+</html>
