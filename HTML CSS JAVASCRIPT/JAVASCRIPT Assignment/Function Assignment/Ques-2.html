@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicQ2</title>
+</head>
+
+<body>
+    <script>
+        var x = prompt("enter the value of x");
+
+        function square(x) {
+            return x * x;
+        }
+
+        function double(x) {
+            return (x * 2);
+        }
+        var f1 = function compose() {
+            return square(double(x));
+        }
+        var f2 = function compose() {
+            return double(square(x));
+        }
+
+        document.write("Compose value of f1 is" + f1() + "<br>" +
+            "Compose value of f2 is" + f2());
+    </script>
+</body>
+
+</html>

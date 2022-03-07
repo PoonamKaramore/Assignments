@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advance-Question-2</title>
+</head>
+
+<body>
+    <script>
+        //square
+        function square(num) {
+            return num * num;
+        }
+
+        var resList = [];
+
+        function map(list, fun) {
+            if (list.length == 0) {
+                return;
+            }
+            resList.push(fun(list.slice(0, 1)))
+            list = list.slice(1, (list.length));
+            return map(list, fun);
+        }
+        map([1, 2, 3, 4, 5], square);
+        document.write(resList + "<br>");
+
+        //Squareroot
+
+
+        function squareroot(num) {
+            return Math.sqrt(num);
+        }
+
+        var resList1 = [];
+
+        function mapp(list, fun) {
+            if (list.length == 0) {
+                return;
+            }
+            resList1.push(fun(list.slice(0, 1)))
+            list = list.slice(1, (list.length));
+            return mapp(list, fun);
+        }
+        mapp([1, 4, 9, 16, 25], squareroot);
+        document.write(resList1);
+    </script>
+
+</body>
+
+</html>

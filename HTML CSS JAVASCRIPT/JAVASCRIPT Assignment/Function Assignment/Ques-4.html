@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question-4</title>
+</head>
+
+<body>
+    <script>
+        //square
+        var arr = [1, 2, 3, 4, 5];
+
+        function square(x) {
+            return x * x;
+        }
+
+        function map(arr, func) {
+            for (i = 0; i < arr.length; i++) {
+                arr[i] = func(arr[i]);
+            }
+            return arr;
+        }
+
+        //squareroot
+        var arr2 = [1, 4, 9, 16, 25];
+
+        function squareroot(x) {
+            return Math.sqrt(x);
+        }
+
+        function map1(arr2, func) {
+            for (i = 0; i < arr2.length; i++) {
+                arr2[i] = func(arr2[i]);
+            }
+            return arr2;
+        }
+
+        document.write("Square = " + (map(arr, square)), "<br>");
+        document.write("Squareroot = " + (map1(arr2, squareroot)));
+    </script>
+</body>
+
+</html>
