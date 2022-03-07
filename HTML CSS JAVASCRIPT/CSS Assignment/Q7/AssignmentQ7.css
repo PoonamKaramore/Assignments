@@ -1,0 +1,17 @@
+div {
+    margin: 10px 30px;
+    padding: 20px;
+    border: 1px solid;
+    width: fit-content;
+    background-color: white;
+}
+
+h1 {
+    padding: 10px;
+    border: 3px solid rgb(247, 70, 70);
+    outline: 5px dotted greenyellow;
+}
+
+span {
+    font-weight: bold;
+}
