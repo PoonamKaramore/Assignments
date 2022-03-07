@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/AssignmentQ2.css">
+</head>
+
+<body>
+    <h1>Customer Survey Form</h1>
+    <form class="survey">
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="enter your name" name="name"><br>
+
+            <label for="age">Age</label>
+            <input type="text" placeholder="age" name="age"><br>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" name="email" required><br>
+        </div>
+        <div class="roles">
+            <label for="role">Gender</label>
+            <select name="role" id="role">
+            <option value="gender">Female</option>
+            <option value="gender">Male</option>
+            <option value="gender">Other</option>
+            <option value="gender">Not to mention</option>
+        </select><br>
+        </div>
+        <div class="hear">
+            <label for="listen">where did you hear first time about our website?</label>
+            <input type="checkbox" name="listen">Friends<br>
+            <input type="checkbox" name="listen">College<br>
+            <input type="checkbox" name="listen">Facebook<br>
+            <input type="checkbox" name="listen">Other<br>
+        </div>
+
+        <div class="website">
+            <label for="purchase">Do you purchase goods from our website?</label>
+            <input type="radio" name="purchase" value="">Yes<br>
+            <input type="radio" name="purchase" value="female">No<br>
+        </div>
+
+        <div class="goods">
+            <label for="product">are you satisfied with our products?</label>
+            <input type="radio" name="product" value="">Yes<br>
+            <input type="radio" name="product" value="female">No<br>
+        </div>
+        <div class="comments">
+            <label for="comment">Additional Comments</label><br>
+            <textarea name="comment" id="comment" cols="50" rows="10" placeholder="enter here"></textarea><br>
+
+        </div><br>
+        <div class="button" style="text-align: center;">
+            <input type="submit" value="submit">
+        </div>
+</body>
+</body>
+
+</html>

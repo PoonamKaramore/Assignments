@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(109, 142, 150);
+}
+
+label {
+    display: flex;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.survey {
+    background-color: rgb(221, 191, 191);
+    margin-left: 30%;
+    margin-right: 20%;
+    padding-left: 2%;
+    font-size: 20px;
+}
+
+input {
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.button input {
+    padding: 10px;
+    margin-bottom: 6%;
+    font-size: 20px;
+}
