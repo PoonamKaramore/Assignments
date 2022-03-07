@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>question-2</title>
+</head>
+
+<body>
+    <script>
+        function myFunction(num) {
+            var sum = 0;
+
+            for (var i = 0; i <= num; i++) {
+                if (i % 3 == 0 || i % 5 == 0) {
+                    sum = sum + i;
+                    console.log("Sum of numbers before returning is", i);
+
+                }
+            }
+            return sum;
+        }
+        console.log(myFunction(17));
+    </script>
+</body>
+
+</html>
