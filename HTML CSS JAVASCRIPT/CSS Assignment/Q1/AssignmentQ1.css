@@ -1,0 +1,26 @@
+div {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 4px;
+    text-align: left;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    margin: 0%;
+}
+
+h2 {
+    background-color: lightblue;
+    margin: 0%;
+}
+
+h3 {
+    background-color: rgb(216, 248, 247);
+    margin: 0%;
+}
+
+p {
+    background-color: rgb(216, 248, 247);
+    margin: 0%;
+}
