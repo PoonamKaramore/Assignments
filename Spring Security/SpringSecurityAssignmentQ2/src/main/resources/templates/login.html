@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>LOGIN PAGE</title>
+</head>
+<body>
+    <h1>Login Form </h1>
+    <form action="@{login}" method = "post">
+       <p> 
+          username: <input type="text" id="username" placeholder="username" />
+       </p>
+       <p>
+          Password: <input type="password" id="passwordd" placeholder="Password" />
+       </p>
+       
+        <p>
+          Remember Me<input type="checkbox" value="Remember Me"/>
+       </p>
+      
+       <p>
+          <input type="submit" value="login"/>
+       </p>
+    </form>
+
+</body>
+</html>
