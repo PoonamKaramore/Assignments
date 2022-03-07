@@ -1,0 +1,25 @@
+/* unvisited link */
+
+a:link {
+    color: green;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: red;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: green;
+}
+
+div {
+    border: 2px solid black;
+    background-color: rgb(216, 248, 247);
+    padding: 20px;
+}
